@@ -10,7 +10,7 @@ the following is a blockquote:
 >this is a blockquote
 >this is the second line of a blockquote
 
-I am using 'git'. 
+I am using `git`. 
 
 This is a code block:
 ```
