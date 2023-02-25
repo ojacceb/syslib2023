@@ -26,3 +26,25 @@ sudo apt -y upgrade
 
 1. stopped first video at 23:13. installed apache2, created first basic web page
 
+
+
+
+
+***Side Notes/Issues/New Knowledge***
+
+-On 2/25 when I opened my computer's commandline, it said my google cloud software needed an update. I ran that update using the command provided. For some reason it errored out part way through the update process. I tried then to proceed with logging into my virtual machine however something had been deleted from my gcloud software and I wasn't able to log in. I noticed that my machine had started to retry the update command but I had interrupted it on accident. So I re-ran the command and it was successful that time. After it completed the updates I was able to login to the virtual machine as normal. 
+
+-On 2/25 after completing the updates to my gcloud software, my virtual machine prompted me to reboot.  
+I googled how to reboot a virtual machine and found [this website](https://www.cs.stonybrook.edu/about-us/csintranet/faqs/Ubuntushutdown)
+I used the `sudo reboot` command and my virtual machine disconnected. 
+When I ran the command from my machine to log in again the promt to reboot was gone. 
+
+-On 2/25 I figured out how to delete the repo that I had accidentally cloned from Dr. Burns's GitHub during the GitHub week.  
+Previously I tried to run the `rm` command, but received the error that it wouldn't work because it was a directory.
+When I looked at the man page for the `rm` command it was supposed to work for directories so I was confused. For several days I just gave up after that point.
+Today I relized it was actually not a director, but a git repo. So I googled how to delete a git repo. 
+I found [this website](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/delete-local-git-repository-repo-command-windows-linux-rm#:~:text=Command%20line%20Git%20repository%20delete&text=Just%20run%20the%20rm%20command,and%20folder%20to%20remain%20untouched.)
+It suggested running `rm -f -r repo name`.
+When I ran that command the repo was successfully deleted!! 
+
+
