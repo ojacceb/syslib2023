@@ -26,8 +26,24 @@ sudo apt -y upgrade
 
 1. stopped first video at 23:13. installed apache2, created first basic web page
 
+Created sql user
+
+Created database
+
+learned some commands for mysql
+- \h = help
+- \c = clear current input statement. You can use this if you've typed something incorrectly and need to start over. 
+- \q = quit mysql
+- control l (as in llama) = clear screen
+- update database = edit existing database
+- insert database = add new database
 
 
+Also learned how to log in as opac user
+```
+$mysql -u opacuser -p
+```
+it then prompts for password and you enter the user's password. 
 
 
 ***Side Notes/Issues/New Knowledge***
