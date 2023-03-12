@@ -11,16 +11,16 @@
 
 ## Tasks from Assignment this week:
 
-- create an index.html file in a new cataloging directory in /var/www/html
-- create an insert.php file in the new cataloging directory
+1. create an index.html file in a new cataloging directory in /var/www/html
+1. create an insert.php file in the new cataloging directory
 	- Don't forget to change the fake IP address to the VM pulbic IP address for the return links to work
 	- test by finding public ip address of VM and navigating to ip address/cataloging
 	- it worked!
-- secure your cataloging directory with the htpasswd command
+1. secure your cataloging directory with the htpasswd command
 	- Used the same username and pw as Dr. Burns in the video
-- add some additional records using the new web form
+1. Add some additional records using the new web form
 	- It's much easier to add records using the website interface as opposed to directly typing into the mySQL
-- use your OPAC to retrieve the new records
+1. Use your OPAC to retrieve the new records
 	- website for the record retrevial page is *IP Address*  + /opacbb.html
 
 
