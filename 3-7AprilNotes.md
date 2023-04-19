@@ -13,3 +13,8 @@ Steps
 1. need to create new VM (ours doens't have enough ram) and configure HTTP traffic. (follow instructions in manual from previous lesson and on the google vm page.
 1. created a new firewall rule (not policy) following the specifications in the manual and the prompts on the google cloud site.
 
+
+## Problem -- I got Koha installed, however, I wasn't able to complete all the tasks in one sitting. I returned later to log in and complete the assignment and it said my password was incorrect! 
+
+## Second problem - I can't have both VM instances open at the same time...
+ 
